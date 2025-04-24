@@ -63,7 +63,7 @@ function Experience() {
                             {experience.title}
                           </p>
                           <p className="text-sm sm:text-base">
-                            {experience.company}
+                            {experience?.company}
                           </p>
                         </div>
                       </div>
